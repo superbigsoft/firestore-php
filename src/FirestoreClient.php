@@ -206,7 +206,7 @@ class FirestoreClient
      *
      * @return array
      */
-    public function setOptions(array $options): array
+    public function setOptions(array $options)
     {
         return $this->options = $options;
     }
@@ -227,7 +227,7 @@ class FirestoreClient
     /**
      * @return array
      */
-    public function getOptions(): array
+    public function getOptions()
     {
         return $this->options;
     }
